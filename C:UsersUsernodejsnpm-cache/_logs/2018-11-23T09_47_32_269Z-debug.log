@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'deploy' ]
+2 info using npm@6.2.0
+3 info using node@v10.9.0
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info lifecycle react-form@0.1.0~predeploy: react-form@0.1.0
+6 verbose lifecycle react-form@0.1.0~predeploy: unsafe-perm in lifecycle true
+7 verbose lifecycle react-form@0.1.0~predeploy: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/hyesoopark/Desktop/Integrify/REACT/react-LetsTalkFom/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/smlnj/bin:/usr/local/smlnj/bin:/usr/local/bin
+8 verbose lifecycle react-form@0.1.0~predeploy: CWD: /Users/hyesoopark/Desktop/Integrify/REACT/react-LetsTalkFom
+9 silly lifecycle react-form@0.1.0~predeploy: Args: [ '-c', 'npm run build' ]
+10 silly lifecycle react-form@0.1.0~predeploy: Returned: code: 0  signal: null
+11 info lifecycle react-form@0.1.0~deploy: react-form@0.1.0
+12 verbose lifecycle react-form@0.1.0~deploy: unsafe-perm in lifecycle true
+13 verbose lifecycle react-form@0.1.0~deploy: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/hyesoopark/Desktop/Integrify/REACT/react-LetsTalkFom/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/smlnj/bin:/usr/local/smlnj/bin:/usr/local/bin
+14 verbose lifecycle react-form@0.1.0~deploy: CWD: /Users/hyesoopark/Desktop/Integrify/REACT/react-LetsTalkFom
+15 silly lifecycle react-form@0.1.0~deploy: Args: [ '-c', 'gh-pages -d build' ]
+16 silly lifecycle react-form@0.1.0~deploy: Returned: code: 1  signal: null
+17 info lifecycle react-form@0.1.0~deploy: Failed to exec deploy script
+18 verbose stack Error: react-form@0.1.0 deploy: `gh-pages -d build`
+18 verbose stack Exit status 1
+18 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+18 verbose stack     at EventEmitter.emit (events.js:182:13)
+18 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+18 verbose stack     at ChildProcess.emit (events.js:182:13)
+18 verbose stack     at maybeClose (internal/child_process.js:961:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:250:5)
+19 verbose pkgid react-form@0.1.0
+20 verbose cwd /Users/hyesoopark/Desktop/Integrify/REACT/react-LetsTalkFom
+21 verbose Darwin 17.6.0
+22 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "deploy"
+23 verbose node v10.9.0
+24 verbose npm  v6.2.0
+25 error code ELIFECYCLE
+26 error errno 1
+27 error react-form@0.1.0 deploy: `gh-pages -d build`
+27 error Exit status 1
+28 error Failed at the react-form@0.1.0 deploy script.
+28 error This is probably not a problem with npm. There is likely additional logging output above.
+29 verbose exit [ 1, true ]
